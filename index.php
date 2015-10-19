@@ -5,7 +5,7 @@
     <body>
     <p>
         <?php
-            echo 5*7;
+            echo 5* 7;
         ?>
     </p>
     </body>
