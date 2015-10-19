@@ -24,19 +24,19 @@
 
         $name = "Andrew";
         $age = 21;
-        print "Name = Andrew ";
+        print "Andrew ";
 
         if($age>15){
-            print $name . "can buy specs, ";
+            print "can buy specs, ";
         }
         elseif($age>17){
-            print $name . "can buy specs and mugs";
+            print "can buy specs and mugs";
         }
         elseif($age>20) {
-            print $name . "can buy specs, mugs and saussage rolls";
+            print "can buy specs, mugs and saussage rolls";
         }
         else{
-            print $name . "can't buy anything!";
+            print "can't buy anything!";
         }
 
         ?>
