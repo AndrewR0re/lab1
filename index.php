@@ -22,7 +22,7 @@
         }
         */
 
-        $name = "Andrew";
+        /*$name = "Andrew";
         $age = 21;
         print "Andrew ";
 
@@ -38,6 +38,13 @@
         else{
             print "can't buy anything!";
         }
+        */
+
+        $provisionedActivities = array("specs", "drugs", "Rock and Roll");
+        foreach($provisionedActivities as $x){
+            print "<p>$x</p>";
+        }
+
 
         ?>
     </p>
