@@ -11,6 +11,7 @@
         echo "My name is " . $myName . "and I am " . $myAge;
         */
 
+
         /*$name = "Edgar";
         //$name = "Simon";
 
@@ -21,6 +22,7 @@
             print "Who are you?";
         }
         */
+
 
         /*$name = "Andrew";
         $age = 21;
@@ -40,10 +42,22 @@
         }
         */
 
+
+
         $provisionedActivities = array("specs", "drugs", "Rock and Roll");
         foreach($provisionedActivities as $x){
             print "<p>$x</p>";
         }
+
+        $provisionedActivities[1] = "mugs";
+        $provisionedActivities[2]= "";
+
+        foreach($provisionedActivities as $x){
+            print "<p>$x</p>";
+        }
+
+
+
 
 
         ?>
