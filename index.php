@@ -26,14 +26,14 @@
         $age = 21;
         print "Andrew ";
 
-        if($age>15){
-            print "can buy specs, ";
+        if($age>20){
+            print "can buy specs, mugs and saussage rolls ";
         }
         elseif($age>17){
             print "can buy specs and mugs";
         }
-        elseif($age>20) {
-            print "can buy specs, mugs and saussage rolls";
+        elseif($age>15) {
+            print "can buy specs";
         }
         else{
             print "can't buy anything!";
