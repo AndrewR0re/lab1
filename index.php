@@ -43,7 +43,7 @@
         */
 
 
-
+        /*
         $provisionedActivities = array("specs", "drugs", "Rock and Roll");
         foreach($provisionedActivities as $x){
             print "<p>$x</p>";
@@ -55,6 +55,11 @@
         foreach($provisionedActivities as $x){
             print "<p>$x</p>";
         }
+        */
+
+
+
+
 
 
 
